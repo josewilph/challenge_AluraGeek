@@ -1,0 +1,25 @@
+
+.nav__logo{
+    width: 50%;
+}
+.nav__search{
+width: 50%;
+
+}
+.nav__search__input{
+    width: 100%;
+    border-radius: 30px;
+}
+.box__logo{
+width: 50%;
+}
+.header__boton{
+   
+}
+.nav__boton{
+display:flex;
+align-items: center;
+width: 50%;
+justify-content: end;
+
+}
