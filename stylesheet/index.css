@@ -24,6 +24,7 @@ html{
     grid-template-columns: min-content 1fr 1fr;
     grid-template-rows:100px ;
     align-items: center;
+    gap: 10px;
     
    
 }
@@ -70,7 +71,9 @@ html{
 @media (max-width: 600px) {
 
     .header{
-        grid-template-columns: min-content 1fr min-content;
+        grid-template-columns: min-content 1fr max-content;
+        gap: 10px;
+        justify-content: space-between;
     }
     
     .header__search__input{
@@ -79,7 +82,6 @@ html{
 
     .header__search{
         order: 1;
-        justify-self: end;
     }
 
     .header__search span{
@@ -91,6 +93,15 @@ html{
     }
     .header__btn{
         justify-self: center;
+    }
+
+    .header__logo__img{
+        width: 10rem;
+    }
+
+    .header__btn__login{
+
+        padding: 12px, 16px, 12px, 16px; 
     }
 
 }
