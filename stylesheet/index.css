@@ -82,7 +82,7 @@ main{
     }
 
     .header{
-        grid-template-columns: 1fr 1fr min-content;
+        grid-template-columns: 1fr 1fr 0.9fr;
         grid-template-rows: 72px;
        
         /* border: 1px solid rgb(23, 25, 25); */
