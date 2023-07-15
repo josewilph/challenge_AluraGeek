@@ -14,17 +14,22 @@ html{
 }
 .container{
     max-width: 1750px;
-    margin: 0 3rem;
+    margin: 0 auto;
     /* border: 2px solid red; */
+}
+main{
+    background: #F5F5F5;
+    height: 40rem;
+    width: 100%;
 }
 
 .header{
-    /* border: 2px solid red; */
+   
     display: grid;
-    grid-template-columns: min-content 1fr 1fr;
-    grid-template-rows:100px ;
+    grid-template-columns: min-content repeat(2,1fr);
+    grid-template-rows:115px ;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     
    
 }
@@ -38,7 +43,7 @@ html{
 
 .header__search{
     
-    margin: 0 20px;
+   
     display: flex;
     align-items: center;
     
@@ -62,18 +67,26 @@ html{
     justify-self: end;
 }
 .header__btn__login{
-    padding: 1.2rem 5.4rem;
     background: white;
     border: 1.5px solid rgb(59, 130, 246);
     color: rgb(59, 130, 246);;
+    padding: 16px 32px 16px 32px;
 }
 
 @media (max-width: 600px) {
 
+    .container{
+        margin: 0 1rem;
+        /* border: 1px solid rgb(0, 255, 8); */
+       
+    }
+
     .header{
-        grid-template-columns: min-content 1fr max-content;
-        gap: 10px;
-        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 72px;
+       
+        /* border: 1px solid rgb(23, 25, 25); */
+
     }
     
     .header__search__input{
@@ -81,18 +94,21 @@ html{
     }
 
     .header__search{
+        box-sizing: border-box;
         order: 1;
+        /* border: 1px solid red; */
+        justify-self: end;
+        
+        
     }
 
     .header__search span{
-        
        border:none;
        border-radius: 0;
-       background-color:white ;
-        
+       background-color: white;
     }
     .header__btn{
-        justify-self: center;
+        
     }
 
     .header__logo__img{
@@ -101,7 +117,7 @@ html{
 
     .header__btn__login{
 
-        padding: 12px, 16px, 12px, 16px; 
+        padding: 12px 16px 12px 16px;
     }
 
 }
