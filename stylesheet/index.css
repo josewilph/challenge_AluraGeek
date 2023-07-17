@@ -64,6 +64,7 @@ main{
     color: #000;
     background-color: #F5F5F5;
     padding: 1rem;
+    opacity: 0.5;
 }
 .header__search span{
     border-radius: 0 12px  12px 0;
