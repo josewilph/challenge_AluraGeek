@@ -1,25 +1,36 @@
-
-.nav__logo{
-    width: 50%;
+body{
+    
 }
-.nav__search{
-width: 50%;
+
+.container{
+    padding: 0 2rem;
 
 }
-.nav__search__input{
+
+
+.header__logo__img{
+    width: 17.6rem;
+    /* width: clamp(30px,100px,171px); */
+}
+.header__btn__login{
+    width: 182px;
+    padding: 16px ;
+}
+
+.hero-imagen{
     width: 100%;
-    border-radius: 30px;
+    height: 342px;
+    padding-bottom: 16px;
 }
-.box__logo{
-width: 50%;
-}
-.header__boton{
-   
-}
-.nav__boton{
-display:flex;
-align-items: center;
-width: 50%;
-justify-content: end;
 
+.hero__img__texh1 h1{
+    font-size: 52px;
+}
+.hero__img__texh2 p{
+    font-size: 22px;
+    
+}
+.hero__img__btn button{
+
+ padding: 1.6rem;
 }

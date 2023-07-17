@@ -1,5 +1,9 @@
 
 :root{
+    --blue:rgb(59, 130, 246);
+
+
+
 }
 *{
     margin: 0;  
@@ -62,65 +66,55 @@ main{
     background-color: #F5F5F5;
     font-size: clamp(1rem,2rem,3rem);
     padding: 0.6rem;
+    
+    
 }
 .header__btn{ 
     justify-self: end;
 }
 .header__btn__login{
     background: white;
-    border: 1.5px solid rgb(59, 130, 246);
-    color: rgb(59, 130, 246);;
-    padding: 16px 32px 16px 32px;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+
+}
+.banner{
+    background-image: url("https://github.com/JhnFrankz/Challenge-AluraGeek-Ecommerce/blob/main/img/banner-image.png?raw=true");
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
-@media (max-width: 600px) {
+.hero-imagen{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    justify-content: end;
+    gap: 10px;
 
-    .container{
-        margin: 0 1rem;
-        /* border: 1px solid rgb(0, 255, 8); */
-       
-    }
-
-    .header{
-        grid-template-columns: 1fr 1fr 0.9fr;
-        grid-template-rows: 72px;
-       
-        /* border: 1px solid rgb(23, 25, 25); */
-
-    }
+  
     
-    .header__search__input{
-     display: none;
-    }
-
-    .header__search{
-        box-sizing: border-box;
-        order: 1;
-        /* border: 1px solid red; */
-        justify-self: end;
-        
-        
-    }
-
-    .header__search span{
-       border:none;
-       border-radius: 0;
-       background-color: white;
-    }
-    .header__btn{
-        
-    }
-
-    .header__logo__img{
-        width: 10rem;
-    }
-
-    .header__btn__login{
-        width: 133px;
-        padding: 12px 16px 12px 16px;
-    }
+}
+.hero__img__texh1 h1{
+   color: white;
+   font-family: Raleway;
+   
 
 }
+.hero__img__texh2{
+    font-size: clamp(0.625rem, 0.1797rem + 2.375vw, 3rem);
+    color: white;
+}
+
+.hero__img__btn button{
+    color:white;
+    background: var(--blue) ;
+    border: none;
+
+}
+
+
 
 
 

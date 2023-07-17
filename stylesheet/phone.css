@@ -1,0 +1,66 @@
+body{
+   
+}
+.container{
+    padding: 0 1rem;
+    /* border: 1px solid rgb(0, 255, 8); */
+   
+}
+
+.header{
+    grid-template-columns: 1fr 1fr 0.9fr;
+    grid-template-rows: 72px;
+   
+    /* border: 1px solid rgb(23, 25, 25); */
+
+}
+
+.header__search__input{
+ display: none;
+}
+
+.header__search{
+    box-sizing: border-box;
+    order: 1;
+    /* border: 1px solid red; */
+    justify-self: end;
+    
+    
+}
+
+.header__search span{
+   border:none;
+   border-radius: 0;
+   background-color: white;
+}
+.header__btn{
+    
+}
+
+.header__logo__img{
+    width: 12rem;
+}
+
+.header__btn__login{
+    width: 133px;
+    padding: 12px 16px 12px 16px;
+}
+
+
+.hero-imagen{
+    height: 192px;
+    padding-bottom: 16px;
+}
+
+.hero__img__texh1 h1{
+    font-size: 22px;
+}
+.hero__img__texh2 p{
+    font-size: 14px;
+    
+}
+.hero__img__btn button{
+
+    padding: 12px 16px 12px 16px;
+ }
+ 

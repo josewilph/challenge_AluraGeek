@@ -1,0 +1,45 @@
+body{
+    /* background: darkgray; */
+}
+
+.container{
+    padding: 0 2rem;
+
+}
+.header{
+   
+
+    grid-template-rows:72px ;
+ 
+    
+   
+}
+.header__search__input{
+    width: 80%;
+}
+
+.header__btn__login{
+    width: 166px;
+    padding: 12px 16px 12px 16px;
+}
+
+
+.hero-imagen{
+    height: 352px;
+    padding-bottom: 16px;
+  
+
+}
+
+.hero__img__texh1 h1{
+    font-size: 52px;
+}
+.hero__img__texh2 p{
+    font-size: 22px;
+ 
+}
+
+.hero__img__btn button{
+
+   padding: 12px 16px 12px 16px;
+}
