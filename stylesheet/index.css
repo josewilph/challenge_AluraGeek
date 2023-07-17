@@ -146,6 +146,7 @@ main{
     box-shadow: 4px 3px 5px 2px rgba(0,0,0,0.24);
     -webkit-box-shadow: 4px 3px 5px 2px rgba(0,0,0,0.24);
     -moz-box-shadow: 4px 3px 5px 2px rgba(0,0,0,0.24);
+    outline: none;
     
 
 }
@@ -154,6 +155,7 @@ main{
     background: var(--blue);
     border: none;
     color: white;
+    outline: none;
     
 
 }

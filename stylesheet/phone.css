@@ -8,8 +8,10 @@ body{
 }
 
 .header{
-    grid-template-columns: 1fr 1fr 0.9fr;
-    grid-template-rows: 72px;
+ 
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
    
     /* border: 1px solid rgb(23, 25, 25); */
 
