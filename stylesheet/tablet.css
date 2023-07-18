@@ -73,3 +73,38 @@ body{
       
     
   }
+
+  /* card */
+.card{
+    margin-top: 30px;
+    
+}
+.card_nombre{
+ font-size:2rem ;
+
+ 
+}
+.card_nombre a{
+    font-size:13px ;
+   }
+
+.card_producto{
+
+ width: 164px;
+ height: 252px;
+font-size: 13px;
+
+}
+
+.producto__link a{
+   
+}
+
+
+.producto__img{
+    height: 174px;
+}
+.producto__img img{
+ width: 100%;
+
+}

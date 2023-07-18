@@ -12,7 +12,7 @@
     margin: 0;  
     padding: 0;
     box-sizing: border-box;
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
 }   
 body{
     font-size: arial; 
@@ -27,8 +27,8 @@ html{
 }
 main{
     background: #F5F5F5;
-    height: 40rem;
-    width: 100%;
+    height: 100vh;
+
 }
 
 .header{
@@ -160,7 +160,45 @@ main{
     
 
 }
+/* card */
+.card{
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    display: grid;
+    gap: 15px;
+    
+}
 
+.card_nombre{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+    box-sizing: inherit;
+    font-weight:bold ;
+}
+.card_nombre a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.card_producto{
+ display: grid;
+ width: 176px;
+ height: 252px;
+ /* border: 2px solid black; */
+ 
+}
+.producto__img{
+
+}
+.producto__img img{
+ width: 100%;
+ background-size: cover;
+}
+.producto__link a{
+    text-decoration: none;
+    color: var(--blue);
+}
 
 
 

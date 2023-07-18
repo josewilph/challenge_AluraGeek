@@ -1,0 +1,13 @@
+.layout {
+    width: 100%;
+  
+    display: grid;
+    gap: 16px;
+  }
+  
+  .marginLeft { 
+    margin-left: auto; 
+}
+.dos{
+    margin-left: auto;
+}
