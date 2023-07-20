@@ -1,5 +1,5 @@
 body{
-    /* background: darkgray; */
+    background: darkgray; 
 }
 
 .container{
@@ -107,4 +107,72 @@ font-size: 13px;
 .producto__img img{
  width: 100%;
 
+}
+
+/* footer */
+
+.footer__information{
+    
+    width: 100%;
+    height: 250px;
+
+
+
+}
+.footer__pie{
+    width: 100%;
+
+    height: 70px;
+}
+.information{
+   
+    display: grid;
+    grid-template:
+    "logo form"min-content
+    "link form"1fr/1fr 1fr;
+
+   
+}
+
+.information__logo{
+ /* border: 2px solid ; */
+ grid-area: logo;
+}
+.information__link {
+grid-area: link;
+}
+.information__link a {
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+    font-size: 12px;
+ }
+
+
+.information__form{
+   
+grid-area: form;
+}
+.form_containerr{
+ 
+}
+
+.form_containerr label{
+    font-size: 15px ;
+   
+}
+.information_name_form{
+    height: 4rem;
+    padding: 10px;
+}
+.information_name_form__cambiante{
+    height: 70px;
+    
+}
+.form_containerr button{
+   padding: 16px;
+   width: 146px; 
 }

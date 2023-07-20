@@ -56,6 +56,7 @@ body{
     width: 100%;
     height: 50px;
     border-radius:4px ;
+    padding: 10px;
   
 
 }
@@ -103,3 +104,64 @@ font-size: 14px;
  
 }
 
+/* footer */
+
+.footer__information{
+    
+    width: 100%;
+    height: 250px;
+
+
+
+}
+.footer__pie{
+    width: 100%;
+
+    height: 70px;
+}
+.information{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+   
+}
+
+.information__logo{
+ /* border: 2px solid ; */
+}
+.information__link {
+
+}
+.information__link a {
+
+    font-size: 12px;
+    padding: 10px;
+
+ }
+
+
+.information__form{
+   
+
+}
+.form_containerr{
+
+}
+
+.form_containerr label{
+    font-size: 15px ;
+   
+}
+.information_name_form{
+    height: 4rem;
+    padding: 10px;
+}
+.information_name_form__cambiante{
+    height: 70px;
+    
+}
+.form_containerr button{
+   padding: 16px;
+   width: 146px; 
+}
