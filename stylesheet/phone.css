@@ -69,8 +69,10 @@ body{
  /* login */
 
  .form_login{
-    width: 275px;
-    height: 189px;
+    max-width: 360px;
+    width: 90%;
+    
+    height: min-content;
       
   }
   .form_login h1{
@@ -81,7 +83,7 @@ body{
   }
   .form_login input{
   
-      width: 100%;
+      padding: 0 10px;
       height: 50px;
       border-radius:4px ;
     
@@ -180,7 +182,7 @@ grid-area: link;
     margin-inline-end: 0px;
     text-align: center;
     
-    font-size: 12px;
+    /* font-size: 12px; */
  }
 
 

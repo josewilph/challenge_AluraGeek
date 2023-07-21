@@ -132,7 +132,7 @@ main{
   flex-direction: column;
   gap:15px;
   text-align: center;
-  
+  border: 2px solid; 
       
 }
 .form_login h1{
@@ -204,8 +204,9 @@ main{
 .footer__information{
     
     width: 100%;
-    height: 250px;
+   
     background: aliceblue;
+    padding: 20px 0;
 
 
 }
@@ -218,6 +219,7 @@ main{
     /* border: 2px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 
    
 }
@@ -235,6 +237,7 @@ main{
  
     text-decoration: none;
     color: #000;
+    font-size: clamp(1.6rem, 4vw, 3.2rem);
  }
 
 

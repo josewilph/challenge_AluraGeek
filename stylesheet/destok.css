@@ -41,6 +41,7 @@ body{
 }
 
 .form_login{
+ 
   width: 423px;
   height: 291px;
     
@@ -135,7 +136,7 @@ font-size: 14px;
 }
 .information__link a {
 
-    font-size: 12px;
+    /* font-size: 12px; */
     padding: 10px;
 
  }
