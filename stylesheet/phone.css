@@ -195,7 +195,7 @@ grid-area: form;
 }
 
 .form_containerr label{
-    font-size: 15px ;
+
     font-weight: bold;
    
 }
@@ -209,6 +209,7 @@ grid-area: form;
 }
 .form_containerr button{
  height: 43px;
-   width: 130px;
-   padding: 12px 16px 12px 16px; 
+width: max-content;
+padding: 12px 16px 12px 16px; 
+
 }
